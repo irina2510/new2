@@ -1,0 +1,60 @@
+#menu{
+    max-width: 98%;
+    height: 40px;
+}
+
+#menu li{
+    float: left;
+    margin-left: 25px;
+    width: 250px;
+    color: black;
+
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+5,008a00+52,005700+74,002400+100 */
+    background: #b4ddb4; /* Old browsers */
+    background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 5%, #008a00 52%, #005700 74%, #002400 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 5%,#008a00 52%,#005700 74%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 5%,#008a00 52%,#005700 74%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 );
+}
+#menu li:first-child{
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+#menu li:last-child{
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
+#menu li:nth-child(2n){background: red;}
+#menu li:hover{
+    background: #ffc107;
+    background: linear-gradient(to right bottom,yellow,orange );
+    text-align: center;
+    border: 5px solid chartreuse;
+    box-shadow: 5px 5px 15px 5px #ffc107;
+}
+#table div {
+	color : white;
+    margin: auto;
+    width: 400px;
+    height: 80px;
+	}
+#first{
+    background:yellow;
+}
+#second{
+    background: deepskyblue;
+}
+#test-table{
+    width: 100%;
+    margin-top: 50px;
+}
+#test-table th:first-child,
+#test-table td:first-child{
+    text-align: left;
+    width: 100px;
+}
+#test-table th,
+#test-table td{
+    border: 1px solid;
+}
