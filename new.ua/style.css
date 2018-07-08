@@ -1,0 +1,82 @@
+menu li {
+    float: left;
+    margin-left: 20px;
+    width: 280px;
+    color: black;
+    border: 10px double black;
+    background: #b88c0a;
+    padding: 10px;
+    text-align: center;
+    color: #fffb1f;
+}
+body {
+    background: url(art1122.jpg);
+}
+p {
+    background: #ffe12c;
+    border: 10px double black;
+    padding: 20px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+P:first-letter {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
+}
+menu li:first-child {
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+
+menu li:last-child {
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
+
+menu li:nth-child(2n) {
+    background: #fffb1f;
+}
+
+menu li:hover {
+    background: #ffc107;
+    background: linear-gradient(to right bottom, yellow, orange);
+    text-align: center;
+    border: 5px solid chartreuse;
+    box-shadow: 5px 5px 15px 5px #ffc107;
+}
+
+table div {
+    width: 300px;
+    height: 1100px;
+}
+
+#first {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+    float: left;
+    width: 250px;
+    color: black;
+    border: 10px double black;
+    padding: 20px;
+    background: linear-gradient(to right bottom, yellow, orange);
+}
+
+#second {
+    margin-left: 5px;
+    width: 100%;;
+
+}
+
